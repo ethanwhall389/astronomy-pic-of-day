@@ -1,0 +1,35 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-cont h1 {
+    margin-bottom: 20px;
+}
+
+  .image-card {
+    background-color: #11121c;
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image {
+    height: auto;
+    max-width: 100%;
+  }
